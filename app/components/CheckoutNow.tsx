@@ -5,7 +5,7 @@ import { useShoppingCart } from 'use-shopping-cart'
 import { urlFor } from '../lib/sanity';
 import { ProductCart } from './AddToCart';
 
-const CheckOutNow = ({currency, description, image, name, price, price_id}: ProductCart) => {
+const CheckOutNow = ({currency, description, image, name, price, price_id}: ProductCart, ) => {
     const {checkoutSingleItem} = useShoppingCart();
 
      function buyNow(priceId: string){
