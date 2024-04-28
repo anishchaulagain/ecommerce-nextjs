@@ -30,7 +30,7 @@ const Navbar = () => {
     const pathname = usePathname()
     const { handleCartClick } = useShoppingCart()
     return (
-        <header className='mb-8 border-b '>
+        <header className='sm:mb-8 border-b m-5 pb-3 sm:pb-0'>
             <div className='flex items-center justify-between mx-auto max-w-2xl sm:px-6 lg:max-w-7xl'>
                 <Link href='/'>
                     <h1 className='text-2xl md:text-4xl font-bold'>Hamro<span className='text-primary '>Pasal</span></h1>

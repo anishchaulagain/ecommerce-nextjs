@@ -18,7 +18,7 @@ const Footer = () => {
             <Linkedin className='hover:fill-black cursor-pointer' />
           </div>
         </div>
-        <div className="lg:col-span-2 flex justify-between mt-6 w-full">
+        <div className="lg:col-span-2 sm:flex justify-between mt-6 w-full hidden">
           <div >
             <h6 className="text-gray-700 font-medium cursor-pointer">Solutions</h6>
             <ul >
